@@ -1,0 +1,97 @@
+
+.devToolsPage {
+    background-color: var(--color-dark-xxl);
+    background-image: var(--app-bg-3);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 4%;
+}
+
+.devTools-header {
+    background: var(--header-bg);
+}
+
+.mainPage {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.headerTitle {
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: var(--text-shadow);
+}
+
+.headerText {
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-red);
+    text-shadow: var(--text-shadow);
+}
+
+.computerIcon {
+    filter: var(--img-shadow-light);
+}
+
+.filterBtn {
+    box-shadow: var(--box-shadowSmall);
+}
+
+/* -------------------------------- */
+.headerSubTitle {
+    color: var(--color-dark-sm);
+}
+
+.toolContainer {
+    display: inline-block;
+}
+
+.toolImg {
+    filter: var(--img-shadow-sm);
+}
+
+.toolBtnBox {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.toolBtnBox span {
+    display: inline-block;
+    color: rgb(255 255 255 / 80%);
+    opacity: .6;
+    transition: all .1s ease-in-out;
+}
+
+.toolBtnBox span:hover {
+    opacity: 1;
+}
+
+.toolLink {
+    color: var(--color-dark-sm);
+    text-decoration-thickness: 2px;
+    text-decoration-color: var(--color-dark-md);
+    text-underline-offset: 4px;
+    transition: all .1s ease-in-out;
+}
+
+.toolLink:hover {
+    color: var(--color-red);
+    text-decoration-color: var(--color-red);
+    text-underline-offset: 6px;
+}
+
+.toolLink .bi-chevron-right {
+    display: inline-block;
+    transition: all .1s ease-in-out;
+}
+
+.toolLink:hover .bi-chevron-right {
+    transform: translateX(3px);
+}
+
+.bi-tools {
+    color: var(--color-dark-sm);
+}

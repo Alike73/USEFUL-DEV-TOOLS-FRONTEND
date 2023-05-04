@@ -1,0 +1,30 @@
+
+
+.tutorialsPage {
+    background-color: var(--color-dark-xxl);
+    background-image: var(--app-bg-3);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 4%;
+}
+
+.tutorialCard {
+    background: var(--article-bg);
+    box-shadow: var(--box-shadowSmall);
+    border: 2px solid var(--color-border);
+}
+
+.tutorial-card-body {
+    height: 150px;
+}
+
+.tutorialCardText {
+    text-align: justify;
+    text-indent: 30px;
+    color: var(--color-dark-sm);
+}
+
+.bi-person-video3 {
+    color: var(--color-dark-sm);
+}
+

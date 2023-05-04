@@ -1,0 +1,219 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+/* font-family: 'Poppins', sans-serif; */
+
+:root {
+  --size: calc(1vh + 1vw);
+  --color-white: #FFFFFF;
+  --color-red: #FC4F00;
+  --color-orange: orange;
+  --color-orange-md: #B8621B;
+  --gold: #ffb338;
+  --light-shadow: #77571d;
+  --color-dark-md: rgb(255 255 255 / 50%);
+  --color-dark-sm: rgb(255 255 255 / 40%);
+  --font-family1:'Montserrat', sans-serif;
+  --font-family2:'Poppins', sans-serif;
+  --app-bg-2: rgb(27 32 44 / 100%);
+  --app-bg-3: url('../Assets/pat-back.svg');
+  --app-bg-4: url('../Assets/tutorialBannerBg.svg');
+  --color-dark-xxl: #1f2029;
+  --article-bg: #272e3c;
+  --img-bg1: linear-gradient(to top, #a7a6cb 0%, #8989ba 52%, #8989ba 100%);
+  --img-bg2: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  --color-border: #4D455D;
+  --card-body-bg1: linear-gradient(to right, #434343 0%, black 100%);
+  --tutorial-bg: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
+  background-blend-mode: lighten;
+  --box-shadow: 
+  0 16px 24px 2px rgba(33,37,41,.02), 
+  0 6px 30px 5px rgba(33,37,41,.04), 
+  0 8px 10px -5px rgba(33,37,41,.1);
+  --box-shadowSmall: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  --box-shadow-xxl: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  --text-shadow: 0px 4px 3px rgb(0 0 0 / 40%), 0px 8px 13px rgb(0 0 0 / 10%), 0px 18px 23px rgb(0 0 0 / 10%);
+  --img-shadow-light: drop-shadow(1px 1px 2px #b29e9e);
+  --img-shadow-sm: drop-shadow(1px 1px 2px #000000);
+
+  --header-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1007%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M247.722%2c304.301C294.377%2c305.983%2c342.651%2c291.517%2c367.459%2c251.969C393.676%2c210.174%2c391.749%2c156.653%2c367.175%2c113.872C342.505%2c70.925%2c297.246%2c42.86%2c247.722%2c43.521C199.256%2c44.168%2c156.281%2c74.117%2c133.667%2c116.989C112.476%2c157.163%2c118.435%2c205.051%2c142.057%2c243.845C164.677%2c280.993%2c204.257%2c302.734%2c247.722%2c304.301' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1268.8204812510269 523.1061263131656L1187.9308749044321 377.1774135588023 1042.002162150069 458.06701990539705 1122.8917684966636 603.9957326597604z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M362.858479026444 505.75767358370314L260.90058138143604 470.6507540315656 225.79366182929846 572.6086516765736 327.7515594743065 607.7155712287112z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M288.78617910518693 282.1365156105178L291.73539460531686 366.5909976581398 373.2406611528089 279.18730011038787z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M817.8180765266122 616.8446793064995L961.7029659176417 601.7217680407689 946.5800546519112 457.83687864973945 802.6951652608816 472.9597899154701z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M169.8092128355272 443.90807886825473L237.85454622154606 315.9334195258548 109.8798868791461 247.88808613983593 41.83455349312726 375.8627454822359z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1007'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ------------ScrollBar---------------------> */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+  background: #2B4865;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+  box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+  border-radius: 100px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+}
+
+/* ----------------------------------------------------------------------- */
+.navbar {
+  background: var(--color-dark-md);
+}
+
+progress {
+  position: fixed;
+  z-index: 1100;
+  top: 0;
+  left: 0;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 4px;
+  border: none;
+  background: transparent;
+}
+progress::-webkit-progress-bar {
+  background: var(--color-dark-md);
+}
+progress::-webkit-progress-value {
+  background: var(--color-orange-md);
+}
+
+body .react-bubbly-transitions__bubbly-link {
+  color: var(--color-dark-sm);
+  font-weight: 700;
+}
+
+body .react-bubbly-transitions__bubbly-link.active {
+  color: var(--color-dark-md);
+  text-decoration: underline;
+  text-decoration-color: var(--color-red);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.hamburger {
+    padding: 15px 15px;
+    display: inline-block;
+    cursor: pointer;
+    transition-property: opacity, filter;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+    font: inherit;
+    color: inherit;
+    text-transform: none;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    overflow: visible; 
+}
+.hamburger:hover {
+    opacity: 0.7; 
+}
+.hamburger.is-active:hover {
+    opacity: 0.7; 
+}
+.hamburger.is-active .hamburger-inner,
+.hamburger.is-active .hamburger-inner::before,
+.hamburger.is-active .hamburger-inner::after {
+    background-color: #DF7857; 
+}
+
+.hamburger-box {
+    width: 40px;
+    height: 24px;
+    display: inline-block;
+    position: relative; 
+}
+
+.hamburger-inner {
+    display: block;
+    top: 50%;
+    margin-top: -2px; 
+}
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+    width: 40px;
+    height: 4px;
+    background-color: #DF7857;
+    border-radius: 4px;
+    position: absolute;
+    transition-property: transform;
+    transition-duration: 0.15s;
+    transition-timing-function: ease;
+}
+.hamburger-inner::before, .hamburger-inner::after {
+    content: "";
+    display: block; 
+}
+.hamburger-inner::before {
+    top: -10px; 
+}
+.hamburger-inner::after {
+    bottom: -10px; 
+}
+
+.hamburger--arrowalt .hamburger-inner::before {
+    transition: top 0.1s 0.1s ease, transform 0.1s cubic-bezier(0.165, 0.84, 0.44, 1); 
+}
+
+.hamburger--arrowalt .hamburger-inner::after {
+    transition: bottom 0.1s 0.1s ease, transform 0.1s cubic-bezier(0.165, 0.84, 0.44, 1); 
+}
+
+.hamburger--arrowalt.is-active .hamburger-inner::before {
+    top: 0;
+    transform: translate3d(-8px, -10px, 0) rotate(-45deg) scale(0.7, 1);
+    transition: top 0.1s ease, transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22); 
+}
+
+.hamburger--arrowalt.is-active .hamburger-inner::after {
+    bottom: 0;
+    transform: translate3d(-8px, 10px, 0) rotate(45deg) scale(0.7, 1);
+    transition: bottom 0.1s ease, transform 0.1s 0.1s cubic-bezier(0.895, 0.03, 0.685, 0.22); 
+}
+
+.navIcon,
+.nav-link {
+    display: inline-block;
+}
+
+.bi-heart-fill {
+  display: inline-block;
+  background: var(--color-red);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 4px 3px rgb(0 0 0 / 40%), 0px 8px 13px rgb(0 0 0 / 10%), 0px 18px 23px rgb(0 0 0 / 10%);
+}
+
+@media (min-width: 820px) {
+  .navIcon {
+      display: none;
+  }
+}

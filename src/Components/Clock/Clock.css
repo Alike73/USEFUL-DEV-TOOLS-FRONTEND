@@ -1,0 +1,7 @@
+
+.date {
+    font-family: 'Poppins', sans-serif;
+    font-size: clamp(12px, calc(var(--size)*1.2), 14px);
+    color: var(--color-dark-md);
+    font-weight: 100;
+}
