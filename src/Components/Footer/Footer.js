@@ -16,7 +16,7 @@ const Footer = () => {
                 <i className="bi bi-c-circle me-2"></i>
                 {year}. Created with 
                 <i className="bi bi-heart-fill mx-2"></i> 
-                    by Developer Alec
+                    by NINJA_DEV ALEC
                     <img className='myDoggy' src={myDoggy} alt="myDoggy" />
             </small>
         </div>
