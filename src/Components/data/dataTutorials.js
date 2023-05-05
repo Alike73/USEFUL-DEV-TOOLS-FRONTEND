@@ -188,6 +188,17 @@ const dataTutorials = [
 
         videoIdLink: 'PL5f_mz_zU5eXWYDXHUDOLBE0scnuJofO0'
     },
+    {
+        "id": 18,
+
+        "title": "MATERIALIZE CSS",
+
+        "description": "Materialize CSS tutorial-2",
+
+        lessonCategory: 'HTML & CSS',
+
+        videoIdLink: 'PL4cUxeGkcC9gGrbtvASEZSlFEYBnPkmff'
+    },
 ];
 
 export default dataTutorials;
