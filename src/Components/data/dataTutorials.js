@@ -166,6 +166,28 @@ const dataTutorials = [
 
         videoIdLink: 'PL6DxKON1uLOHTgN679Es1vkCS911i9HJX'
     },
+    {
+        "id": 16,
+
+        "title": "TAILWIND CSS",
+
+        "description": "Tailwind CSS tutorial",
+
+        lessonCategory: 'HTML & CSS',
+
+        videoIdLink: 'PL4cUxeGkcC9gpXORlEHjc5bgnIi5HEGhw'
+    },
+    {
+        "id": 17,
+
+        "title": "TAILWIND CSS",
+
+        "description": "Tailwind CSS tutorial-2",
+
+        lessonCategory: 'HTML & CSS',
+
+        videoIdLink: 'dFgzHOX84xQ'
+    },
 ];
 
 export default dataTutorials;
