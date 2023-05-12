@@ -208,7 +208,7 @@ const dataTutorials = [
 
         lessonCategory: 'GIT_HUB',
 
-        videoIdLink: 'PL7tZlHJPYhY6exO7LWiZvxg9tsGE0A0Vc'
+        videoIdLink: 'PL7tZlHJPYhY6exO7LWiZvxg9tsGE0'
     },
 ];
 
