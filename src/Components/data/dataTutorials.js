@@ -199,6 +199,17 @@ const dataTutorials = [
 
         videoIdLink: 'PL4cUxeGkcC9gGrbtvASEZSlFEYBnPkmff'
     },
+    {
+        "id": 19,
+
+        "title": "GIT & GIT-HUB LEARNING",
+
+        "description": "GIT & GIT_HUB Learning from scratch",
+
+        lessonCategory: 'GIT_HUB',
+
+        videoIdLink: 'PL7tZlHJPYhY6exO7LWiZvxg9tsGE0A0Vc'
+    },
 ];
 
 export default dataTutorials;
